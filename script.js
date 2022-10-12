@@ -34,6 +34,8 @@ function multiplication(number1, number2){
     console.log("When multiplied "+number1+ " multiplied "+number2+" is equal too " + equalToo + ".")
 }
 
+
+
 // let sum = number1 + number2;
 // let diff = number1 - number2;
 // let mult = number1 * number2;
