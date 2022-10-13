@@ -1,12 +1,12 @@
 // console.log("hello world");
 
-let animal='RAT!';
+var animal='RAT!';
 
 console.log(animal);
 
-var number1 = 5;
+const number1 = 5;
 
-var number2 = 10;
+const number2 = 10;
 
 let math ="I have two numbers " + number1 + " and " + number2 + " Let's do some math with these numbers." ;
 
@@ -34,8 +34,6 @@ function multiplication(number1, number2){
     console.log("When multiplied "+number1+ " multiplied "+number2+" is equal too " + equalToo + ".")
 }
 
-
-
 // let sum = number1 + number2;
 // let diff = number1 - number2;
 // let mult = number1 * number2;
@@ -46,3 +44,11 @@ addition(3, 4);
 subtraction(15,12);
 division(25,5);
 multiplication(9, 9);
+
+document.write("<h1>This is a Java Sqript Demo</h1>")
+document.write("<h3>This was created in JavaSqript not HTML.</h3>")
+document.write("<p></p>")
+
+alert("This entire application was created with JavaSqript.")
+
+prompt("Do you like alerts?")
